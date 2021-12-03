@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matear</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Mate Simulator</title>
 </head>
 <body>
-    <p>Sip mate</p>
-    <button id="btn" onclick="audio.play();">TOMAR</button>
+    <div class="container">
+        <h1>Relajate y tomate unos verdes.</h1>
+        <img src="./assets/mate.svg" onclick="audio.play(); fun();" id="matecito" class="mateAnim" alt="Matecito">
+        <h2>Contador de sips:</h2>
+        <p id="counts"></p>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
+
